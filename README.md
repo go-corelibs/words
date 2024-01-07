@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/go-corelibs/words/graph/badge.svg?token=99HKVL3Y3f)](https://codecov.io/gh/go-corelibs/words)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-corelibs/words)](https://goreportcard.com/report/github.com/go-corelibs/words)
 
-# go-corelibs/words - word metrics from mixed-locale content
+# words - word metrics from mixed-locale content
 
 words is a package for counting the numbers of words and providing simple
 metrics like estimated reading times.
