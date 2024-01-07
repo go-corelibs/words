@@ -4,7 +4,7 @@ SHELL := /bin/bash
 
 VERSION_TAGS        += CORELIBS
 CORELIBS_MK_SUMMARY := Go-CoreLibs.mk
-CORELIBS_MK_VERSION := v0.1.7
+CORELIBS_MK_VERSION := v0.1.9
 
 GOPKG_KEYS          ?=
 GOPKG_AUTO_CORELIBS ?= true
@@ -99,7 +99,6 @@ help:
 		fi; \
 	fi
 
-
 version: LIST=$(foreach key,${VERSION_TAGS},\\n# $($(key)_MK_SUMMARY) $($(key)_MK_VERSION))
 version:
 	@echo -e -n "${LIST}" | column -t -N '#,SYSTEM,VERSION'
@@ -176,7 +175,9 @@ fmt:
 	@echo "# gofmt -s..."
 	@gofmt -w -s `find * -name "*.go"`
 	@echo "# goimports..."
-	@goimports -w `find * -name "*.go"`
+	@goimports -w \
+		-local "github.com/go-corelibs" \
+		`find * -name "*.go"`
 
 test:
 	@go test -race -v ./...
@@ -187,7 +188,7 @@ coverage:
 
 goconvey:
 	@echo "# running goconvey... (press <CTRL+c> to stop)"
-	@goconvey -host=0.0.0.0 2>&1 > /dev/null
+	@goconvey -host=0.0.0.0 -launchBrowser=false -depth=-1
 
 reportcard:
 	@echo "# code sanity and style report"
