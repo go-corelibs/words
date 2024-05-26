@@ -1,7 +1,7 @@
-github.com/go-corelibs/maths v1.0.0 h1:K4pI1fS67/3AYHROB4UwSfLYh+UHqIIczRvolkH6zaU=
-github.com/go-corelibs/maths v1.0.0/go.mod h1:AGg83e+nOjEqCvfrwDMGTu/DvSrs0bWLZ1IZc/fN5RM=
-github.com/go-corelibs/slices v1.0.0 h1:jeBNCTnCf+iMgewHLEID8hYppY9JRsVKzAvWoBD49HM=
-github.com/go-corelibs/slices v1.0.0/go.mod h1:vdScCtnJXNqPRvERHAzV/6BvUb9G+1YVYioUkWe801c=
+github.com/go-corelibs/maths v1.1.1 h1:c5bpdCeEH1ZdnbVx2ulFCaHS7f6jN2QkTzU9OfeXv7o=
+github.com/go-corelibs/maths v1.1.1/go.mod h1:AGg83e+nOjEqCvfrwDMGTu/DvSrs0bWLZ1IZc/fN5RM=
+github.com/go-corelibs/slices v1.6.1 h1:CKpLE69GDxOnn7J+HrrRgo1tDCHalNSgImua9YNLhW8=
+github.com/go-corelibs/slices v1.6.1/go.mod h1:bpEP0I/j/W7ckYJbzvPZ7pUAC89wSGkvZGzhAr50wSA=
 github.com/gopherjs/gopherjs v1.17.2 h1:fQnZVsXk8uxXIStYb0N4bGk7jeyTalG/wsZjQ25dO0g=
 github.com/gopherjs/gopherjs v1.17.2/go.mod h1:pRRIvn/QzFLrKfvEz3qUuEhtE/zLCWfreZ6J5gM2i+k=
 github.com/iancoleman/strcase v0.3.0 h1:nTXanmYxhfFAMjZL34Ov6gkzEsSJZ5DbhxWjvSASxEI=

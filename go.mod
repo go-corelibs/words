@@ -1,10 +1,10 @@
 module github.com/go-corelibs/words
 
-go 1.21.5
+go 1.21.6
 
 require (
-	github.com/go-corelibs/maths v1.0.0
-	github.com/go-corelibs/slices v1.0.0
+	github.com/go-corelibs/maths v1.1.1
+	github.com/go-corelibs/slices v1.6.1
 	github.com/smartystreets/goconvey v1.8.1
 )
 
