@@ -1,7 +1,8 @@
 #!/usr/bin/make --no-print-directory --jobs=1 --environment-overrides -f
 
-VERSION_TAGS += WORDS
-WORDS_MK_SUMMARY := go-corelibs/words
-WORDS_MK_VERSION := v1.0.1
+CORELIB_PKG := go-corelibs/words
+VERSION_TAGS += MAIN
+MAIN_MK_SUMMARY := ${CORELIB_PKG}
+MAIN_MK_VERSION := v1.0.2
 
 include CoreLibs.mk
