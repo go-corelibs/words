@@ -1,6 +1,6 @@
 module github.com/go-corelibs/words
 
-go 1.21.6
+go 1.22.4
 
 require (
 	github.com/go-corelibs/maths v1.1.1
