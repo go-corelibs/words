@@ -3,7 +3,7 @@ module github.com/go-corelibs/words
 go 1.22.4
 
 require (
-	github.com/go-corelibs/maths v1.1.1
+	github.com/go-corelibs/maths v1.2.1
 	github.com/go-corelibs/slices v1.6.1
 	github.com/smartystreets/goconvey v1.8.1
 )

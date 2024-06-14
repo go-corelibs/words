@@ -1,5 +1,5 @@
-github.com/go-corelibs/maths v1.1.1 h1:c5bpdCeEH1ZdnbVx2ulFCaHS7f6jN2QkTzU9OfeXv7o=
-github.com/go-corelibs/maths v1.1.1/go.mod h1:AGg83e+nOjEqCvfrwDMGTu/DvSrs0bWLZ1IZc/fN5RM=
+github.com/go-corelibs/maths v1.2.1 h1:FE7MWp909VSmkmKXAfP2K6TD30+HqrR7LvcDFqR5PeQ=
+github.com/go-corelibs/maths v1.2.1/go.mod h1:ELkOeT0cnMR+DBo0jq3P0lF8byUwtV1uWmg3dsmGeGM=
 github.com/go-corelibs/slices v1.6.1 h1:CKpLE69GDxOnn7J+HrrRgo1tDCHalNSgImua9YNLhW8=
 github.com/go-corelibs/slices v1.6.1/go.mod h1:bpEP0I/j/W7ckYJbzvPZ7pUAC89wSGkvZGzhAr50wSA=
 github.com/gopherjs/gopherjs v1.17.2 h1:fQnZVsXk8uxXIStYb0N4bGk7jeyTalG/wsZjQ25dO0g=
